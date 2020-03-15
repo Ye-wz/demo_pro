@@ -1,0 +1,7 @@
+<view class="content">
+    <view class="title-X">
+        <input type="text" class="title" placeholder="标题栏"/>
+    </view>
+    <edit id="edit"></edit>
+    <button bindtap="subRelease" class="sub">提交</button>
+</view>

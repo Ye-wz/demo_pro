@@ -1,0 +1,2 @@
+<button open-type="getUserInfo" bindgetuserinfo="login">登陆</button>
+<button bindtap="sett">权限</button>

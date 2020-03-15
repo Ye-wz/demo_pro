@@ -1,0 +1,16 @@
+.title {
+    background: white;
+    width: 95%;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.sub {
+    display: block;
+    width: 50rpx;
+    padding: 50rpx 75rpx;
+    border-radius: 10px;
+    margin: auto;
+    background: rgba(90, 227, 103, 0.75);
+    text-align: center;
+}

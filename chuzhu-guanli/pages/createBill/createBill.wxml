@@ -1,0 +1,43 @@
+<view class="container">
+    <view class="bill-addressX">
+        <view class="bill-address-unit">
+            <text class="bill-address-unit-left">出租屋名称</text>
+            <input class="bill-address-unit-right" placeholder="如:时代公寓" />
+        </view>
+        <view class="bill-address-unit">
+            <text class="bill-address-unit-left bill-important">房号</text>
+            <input class="bill-address-unit-right" placeholder="如:302" />
+        </view>
+        <view class="bill-address-unit">
+            <text class="bill-address-unit-left bill-important">账单名称</text>
+            <input class="bill-address-unit-right" value="03月收租账单" />
+        </view>
+        <view class="bill-address-unit">
+            <text class="bill-address-unit-left bill-important">收租期限</text>
+            <input class="bill-address-unit-right" value="03月收租账单" />
+        </view>
+    </view>
+    <view class="bill-tollX">
+        <view class="bill-toll-title bill-important">收费项目</view>
+        <view class="bill-toll-unitX">
+            <text class="bill-toll-unit">项目</text>
+            <text class="bill-toll-unit">计费项目</text>
+            <text class="bill-toll-unit">价格</text>
+            <text class="bill-toll-unit">上期读数</text>
+            <text class="bill-toll-unit">本期读数</text>
+            <text class="bill-toll-unit">删除</text>
+        </view>
+        <view class="bill-toll-add">添加</view>
+    </view>
+    <picker-view indicator-style="height: 40rpx;" style="width: 100%;height: 200rpx">
+        <picker-view-column>
+            <view>123</view>
+            <view>123</view>
+            <view>123</view>
+            <view>123</view>
+        </picker-view-column>
+        <picker-view-column>
+            123
+        </picker-view-column>
+    </picker-view>
+</view>

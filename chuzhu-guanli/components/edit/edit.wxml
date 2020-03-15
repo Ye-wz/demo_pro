@@ -1,0 +1,27 @@
+<view class="content">
+    <view class="unit" wx:if="{{isShow}}">
+      <icon class="iconfont icon-jiacu {{jiacu === true?'selected':''}}" bindtap="changeCss" data-bold/>
+      <icon class="iconfont icon-shanchuxian {{strike === true?'selected':''}}" bindtap="changeCss" data-strike/>
+      <icon class="iconfont icon-xiahuaxian {{ins === true?'selected':''}}" bindtap="changeCss" data-ins/>
+      <icon class="iconfont icon-xieti {{italic === true?'selected':''}}" bindtap="changeCss" data-italic/>
+      <icon class="iconfont icon-wuxuliebiao" bindtap="changeCss" data-list="bullet"/>
+      <icon class="iconfont icon-youxuliebiao" bindtap="changeCss" data-list="ordered"/>
+      <icon class="iconfont icon-zu" bindtap="chooseImage"/>
+    </view>
+    <view class="unit" wx:if="{{isShow}}">
+        <icon class="iconfont icon-juyou" bindtap="changeCss" data-align="right"/>
+        <icon class="iconfont icon-juzhong" bindtap="changeCss" data-align="center"/>
+        <icon class="iconfont icon-juzuo" bindtap="changeCss" data-align="left"/>
+    </view>
+    <view class="unit" wx:if="{{isShow}}">
+        <icon class="iconfont icon-duanlawenben" bindtap="removeFormat"/>
+        <icon class="iconfont icon-h2" bindtap="changeCss" data-header="h1"/>
+        <icon class="iconfont icon-h" bindtap="changeCss" data-header="h2"/>
+        <icon class="iconfont icon-h3" bindtap="changeCss" data-header="h3"/>
+        <icon class="iconfont icon-h5" bindtap="changeCss" data-header="h4"/>
+        <icon class="iconfont icon-h1" bindtap="changeCss" data-header="h5"/>
+        <icon class="iconfont icon-h4" bindtap="changeCss" data-header="h6"/>
+    </view>
+    <text class="textEdit" bindtap="showUnit">样式</text>
+    <editor id="editor" placeholder="点击编辑" class="editor" show-img-resize="true" show-img-toolbar="true"/>
+</view>

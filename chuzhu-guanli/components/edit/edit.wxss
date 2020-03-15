@@ -1,0 +1,32 @@
+@import"../../static/edit-font/iconfont.wxss";
+.unit {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+.unit icon {
+    margin: 10rpx 20rpx;
+    font-size: 20px;
+    padding: 0 10rpx;
+    text-align: center;
+}
+.editor {
+    background: white;
+    width: 95%;
+    margin: 20rpx auto;
+    border-radius: 10px;
+}
+.unit icon.selected{
+    background: #aaa;
+}
+.textEdit {
+    padding: 30rpx 20rpx;
+    line-height: 20rpx;
+    background: rgba(48, 227, 105, 0.4);
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+    margin-bottom: -60rpx;
+    position: relative;
+    z-index: 10;
+}

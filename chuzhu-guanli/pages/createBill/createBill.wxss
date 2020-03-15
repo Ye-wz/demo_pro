@@ -1,0 +1,51 @@
+.bill-addressX {
+    display: block;
+    width: 100%;
+}
+.bill-address-unit {
+    background: white;
+    display: block;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 14px;
+    margin: 4rpx 0;
+    padding: 0 14rpx;
+}
+.bill-address-unit-left {
+    text-align: left;
+    display: inline-block;
+}
+.bill-address-unit-right {
+    text-align: right;
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+.bill-important:before {
+    content: "*";
+    color: red;
+}
+.bill-tollX {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+}
+.bill-tollX>view {
+    background: white;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 14px;
+    margin: 4rpx 0;
+    padding: 0 14rpx;
+}
+.bill-toll-unitX {
+    display: flex;
+    justify-content: space-around;
+}
+.bill-toll-unit {
+    font-size: 12px;
+    color: #999;
+}
+.bill-toll-add {
+    text-align: center;
+}
